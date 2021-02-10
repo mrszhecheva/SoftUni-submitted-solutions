@@ -1,0 +1,6 @@
+Write a function that searches in a table by given input.
+
+When the "Search" button is clicked, check if the given input has a match (check for both full words and single letters).
+
+If any of the rows contain the submitted string, add a select class to that row. Note that more than one row may contain the given string. 
+Оtherwise, if there is no match, nothing should happen.
