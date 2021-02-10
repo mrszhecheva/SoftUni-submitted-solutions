@@ -1,0 +1,7 @@
+Create functionality that gets text from textarea, formats the given text - you need to find out how many sentences there are in the text.
+Also, every sentence must have at least 1 character.
+Generate HTML paragraphs as a string (Use interpolation string to create paragraph element: `<p> {text} </p>`) and append it to the div with an id = "output".
+When the [Format] button is clicked, get the text inside the textarea with an id="input" and format it. The formatting is done as follows:
+•	Create a new paragraph element which holds no more than 3 sentences from the given input.
+•	If the given input contains less or 3 sentences, you need to create only 1 paragraph, fill it with these sentences and append this paragraph to the div with an id="output". 
+•	If the input textarea contains 7 sentences, create 3 paragraphs
