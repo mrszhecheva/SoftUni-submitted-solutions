@@ -1,0 +1,10 @@
+In this problem, you should create a JS functonality which encodes and decodes some
+messages which travel to the network.
+
+This program should contain two functionalities.
+The first one is to encode the given message and send it to the receiver. 
+The second one is to decode the received message and display it.
+
+Encode: Change the ASCII CODE on every single character in that message when you add 1 to the current ASCII NUMBER,
+that represent the current character in that message.
+Decode: Subtract 1 from the current ASCII NUMBER, that represents the current character in that message.
